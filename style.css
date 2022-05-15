@@ -1,0 +1,92 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 1)),
+    url("http://images6.fanpop.com/image/photos/35700000/the-road-so-far-supernatural-35703882-800-600.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.page-title {
+  color: #ff0000;
+  margin: 25px 0 5px 0;
+  font-size: 35px;
+  text-shadow: 0px 0px 5px #ffffff47;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+}
+
+#alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+  width: 250px;
+}
+
+#temporada {
+  width: 56px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+.input-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 10px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+#listaTempSpn img {
+  width: 200px;
+  height: 270px;
+}
+
+#res {
+  color: #ff0000;
+  text-shadow: 0px 0px 5px #ffffff47;
+}
