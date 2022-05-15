@@ -25,7 +25,7 @@ function buscaTemporada() {
   var elementoListaTempSpn = document.getElementById("listaTempSpn");
 
   var elementoRespostaH2 =
-    "Número de temporada inválido, por favor leia atentamente as instruções!";
+    "Temporada inexistente!";
 
   var elementoResposta = document.getElementById("res");
 
